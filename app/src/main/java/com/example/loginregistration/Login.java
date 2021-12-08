@@ -29,6 +29,7 @@ public class Login extends AppCompatActivity {
                 final String phoneTxt = phone.getText().toString();
                 final String passwordTxt = password.getText().toString();
 
+                //check if user has entered login credentials
                 if(phoneTxt.isEmpty() || passwordTxt.isEmpty()){
                     Toast.makeText(Login.this, "Please enter your mobile or password", Toast.LENGTH_SHORT).show();
 

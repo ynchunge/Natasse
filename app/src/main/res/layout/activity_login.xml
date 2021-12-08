@@ -9,6 +9,15 @@
     tools:context=".Login">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="40dp"
+        android:text="LoginHere"
+        android:paddingStart="10dp"
+        android:gravity="center"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +28,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:paddingStart="20dp"
-        android:paddingEnd="0dp" />
+        android:paddingEnd="0dp"/>
 
     <EditText
         android:layout_width="match_parent"
