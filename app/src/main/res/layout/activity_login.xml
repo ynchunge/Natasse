@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:id="@+id/password"
-        android:hint="Password"
+        android:hint="enter password"
         android:maxLines="1"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -55,10 +55,13 @@
             android:text="Dont have an account?"/>
 
         <TextView
+            android:layout_marginStart="5dp"
+            android:id="@+id/registerNowBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register Now"
             android:textStyle="bold"/>
+
     </LinearLayout>
 
 </LinearLayout>

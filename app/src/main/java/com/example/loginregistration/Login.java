@@ -2,6 +2,7 @@ package com.example.loginregistration;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -35,6 +36,16 @@ public class Login extends AppCompatActivity {
                 else{
 
                 }
+            }
+        });
+
+        registerNowBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                //open Register Activity
+                startActivity(new Intent(Login.this, Register.class));
+
             }
         });
     }
