@@ -14,10 +14,10 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:gravity="center"
-        android:textColor="#CC000000"
+        android:textColor="#CC0"
         android:fontFamily="sans-serif-condensed"
         android:textSize="40dp"
-        android:text="LoginHere"/>
+        android:text="Login"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
