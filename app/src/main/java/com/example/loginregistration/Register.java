@@ -32,7 +32,10 @@ public class Register extends AppCompatActivity {
                 final String phoneTxt = phone.getText().toString();
                 final String passwordTxt = conPassword.getText().toString();
                 final String conPasswordTxt = conPassword.getText().toString();
+                final String Location = location.getText().toString();
 
+                //check if user has filled all fields before sending to Firebase
+                if(fullnameTxt.isEmpty() || )
             }
         }));
 
